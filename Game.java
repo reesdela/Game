@@ -153,12 +153,12 @@ public class Game
         JLabel caveI, crossroadI, forestEntranceI, fountainI, forestI, outsideTownI;
 
         // create the rooms
-        cave = new Room("cave", "You are in a dank and dark cave \n", caveI = new JLabel(new ImageIcon("Images/room1x2.png")));
-        crossroad = new Room("crossroad", "You are at a crossroads \n", crossroadI = new JLabel(new ImageIcon("Images/room2x2.png")));
-        forestEntrance = new Room("forestEntrance", "You are at the endge of a forest \n", forestEntranceI = new JLabel(new ImageIcon("Images/room4x2.png")));
-        fountain = new Room("fountain", "You are in an area with a fountain \n", fountainI = new JLabel(new ImageIcon("Images/room3x2.png")));
-        forest = new Room("forest", "You are in the Ganchi forest \n", forestI = new JLabel(new ImageIcon("Images/room5x2.png")));
-        outsideTown = new Room("outsideTown", "You are outside a town \n", outsideTownI = new JLabel(new ImageIcon("Images/room6x2.png")));
+        cave = new Room("cave", "You are in a dank and dark cave \n", caveI = new JLabel(new ImageIcon("room1x2.png")));
+        crossroad = new Room("crossroad", "You are at a crossroads \n", crossroadI = new JLabel(new ImageIcon("room2x2.png")));
+        forestEntrance = new Room("forestEntrance", "You are at the endge of a forest \n", forestEntranceI = new JLabel(new ImageIcon("room4x2.png")));
+        fountain = new Room("fountain", "You are in an area with a fountain \n", fountainI = new JLabel(new ImageIcon("room3x2.png")));
+        forest = new Room("forest", "You are in the Ganchi forest \n", forestI = new JLabel(new ImageIcon("room5x2.png")));
+        outsideTown = new Room("outsideTown", "You are outside a town \n", outsideTownI = new JLabel(new ImageIcon("room6x2.png")));
 
         // initialise room exits
         cave.setExit("east", crossroad);
