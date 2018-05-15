@@ -57,7 +57,7 @@ public class Game
         textArea = new JTextArea();
         textArea.setColumns(40);
         textArea.setRows(1);
-        textArea.setEditable(false);
+        textArea.setEditable(true);
         commands = new CommandWords();
         gui = new ImageViewer();
         createRooms();
